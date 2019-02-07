@@ -1,0 +1,18 @@
+{
+  "name": "sudo-styling",
+  "version": "1.0.0",
+  "description": "HTML styling only a true sudo would use.",
+  "main": "scss/sudo-styles.scss",
+  "keywords": [
+    "css",
+    "scss",
+    "framework",
+    "dark-mode",
+    "dark-css"
+  ],
+  "author": "glweems",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
