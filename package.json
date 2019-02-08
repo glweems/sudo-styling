@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "HTML styling only a true sudo would use.",
   "main": "scss/sudo-styles.scss",
+  "files": [
+    "scss/",
+    "css/"
+  ],
+  "scripts": {
+    "build": "sass scss/sudo-styling.scss:css/sudo-styling.css",
+    "watch": "sass --watch scss/sudo-styling.scss:css/sudo-styling.css"
+  },
   "keywords": [
     "css",
     "scss",
@@ -13,6 +21,7 @@
   "author": "glweems",
   "license": "ISC",
   "devDependencies": {
-    "normalize-scss": "^7.0.1"
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.17.0"
   }
 }
